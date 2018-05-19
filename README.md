@@ -4,18 +4,21 @@ css reset --hard
 
 ```css
 *, *:before, *:after {
-  margin:          0;
-  border:          0;
-  padding:         0;
-  outline:         0;
-  border-spacing:  0;               // only applies to tables
-  font-size:       100%;
-  list-style:      none;            // only applies to lists
-  quotes:          none;            // only applies to pseudo elements
-  content:         none;            // only applies to pseudo elements
-  font:            inherit;
-  box-sizing:      border-box;  
-  border-collapse: collapse;        // only applies to tables
+    margin:          0;
+    border:          0;
+    padding:         0;
+    outline:         0;
+    border-spacing:  0;             // for tables
+    font-size:       100%;
+    quotes:          none;          // for (block)quotes
+    list-style:      none;          // for lists 
+    content:         none;          // for pseudo elements
+    text-decoration: none;
+    background:      none;
+    font:            inherit;
+    box-sizing:      border-box;
+    border-collapse: collapse;      // for tables
+    vertical-align:  baseline;
 }
 ```
 
